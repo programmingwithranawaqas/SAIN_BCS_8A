@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SAIN_BCS_8A</string>
+    <string name="heading">South African ID</string>
+    <string name="id_placeholder">Enter the ID here</string>
+    <string name="clear">Clear</string>
+    <string name="submit">Submit</string>
+</resources>
