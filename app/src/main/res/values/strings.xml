@@ -4,4 +4,5 @@
     <string name="id_placeholder">Enter the ID here</string>
     <string name="clear">Clear</string>
     <string name="submit">Submit</string>
+    <string name="id_is_invalid">Id is invalid</string>
 </resources>

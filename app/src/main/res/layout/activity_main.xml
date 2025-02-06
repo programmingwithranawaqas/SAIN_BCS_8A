@@ -38,13 +38,14 @@
        android:layout_marginEnd="@dimen/margin_left_right"
        android:layout_marginTop="30dp"
        >
+
        <Button
-           android:layout_width="0dp"
-           android:layout_weight="1"
-           android:layout_height="wrap_content"
-           android:text="@string/clear"
            android:id="@+id/btnClear"
-           />
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:onClick="btnClearClicked"
+           android:text="@string/clear" />
 
        <View
            android:layout_width="1dp"
@@ -56,20 +57,14 @@
            />
 
        <Button
-           android:layout_width="0dp"
-           android:layout_weight="1"
-           android:layout_height="wrap_content"
-           android:text="@string/submit"
            android:id="@+id/btnSubmit"
-           />
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="@string/submit" />
    </LinearLayout>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:id="@+id/tvResult"
-        />
+
 
 
 
